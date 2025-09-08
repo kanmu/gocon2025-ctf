@@ -23,7 +23,7 @@
 ```shell
 git clone https://github.com/kanmu/gocon2025-ctf
 cd gocon2025-ctf
-go build main.go -o gocon2025-ctf
+go build -o gocon2025-ctf main.go
 ./gocon2025-ctf　
 ```
 
