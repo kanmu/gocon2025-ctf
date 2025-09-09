@@ -44,7 +44,7 @@ gocon2025-ctf
 
 <details><summary>ヒント2</summary>
 
-GoではSQLインジェクションが起きない？そんなことはありませんよ。
+GoではSQLインジェクションが起きない？そんなことはありません。
 
 </details>
 
@@ -65,3 +65,8 @@ GoではSQLインジェクションが起きない？そんなことはありま
 ## 解答
 
 Go Conference 2025 最終日の夜に公開します。
+
+## ネタバレ部屋
+
+チャレンジ済みの皆様方で、わいわいコメントするためのIssue部屋はこちらです。
+https://github.com/kanmu/gocon2025-ctf/issues/2
