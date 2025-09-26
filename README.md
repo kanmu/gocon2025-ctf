@@ -14,6 +14,13 @@
 
 ## チャレンジ方法
 
+### Webサイトにアクセス
+
+1. https://gocon2025-ctf.dev.kanmu.jp/ にアクセス
+2. ユーザー名：kanmu、パスワード：gocon2025でログイン
+
+### ローカルで実行
+
 1. `git clone` もしくは `go install` で"gocon2025-ctf"サーバーを準備
 2. "gocon2025-ctf"サーバーを起動し、`http://localhost:8080/`（レシピサイト）にアクセス
 3. ユーザー名：kanmu、パスワード：gocon2025でログイン
