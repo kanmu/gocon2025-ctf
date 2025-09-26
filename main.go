@@ -150,7 +150,11 @@ func main() {
 	http.HandleFunc("/download/", downloadHandler)
 
 	fmt.Println("Server starting on http://localhost:8080")
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
+	log.Fatal(http.ListenAndServe(":"+port, nil))
 }
 
 // recipeDatabase contains all recipe data
